@@ -8,7 +8,7 @@
 >advantage in World War II. The Enigma machine was considered to be so secure that even the most top–secret messages were enciphered 
 >on its electrical circuits.
 
-![alt text](enigma)
+![alt text](https://github.com/VitNecha/Enigma-JAVA/blob/main/documentation/enigma.jpg)
 
 In this code Enigma implemented in Java and controlled (I/O) through IDE console.
 
@@ -22,7 +22,7 @@ In this code Enigma implemented in Java and controlled (I/O) through IDE console
 >After creation of Enigma machine (default constructor) we use “sets” to initialize rotors (enums), offsets, settings and 
 >plug-board letter pairs separately.
 >
->![alt text](1)
+>![alt text](https://github.com/VitNecha/Enigma-JAVA/blob/main/documentation/1.png)
 
 **Logical explanation of the algorithm:**
 
@@ -34,21 +34,21 @@ In this code Enigma implemented in Java and controlled (I/O) through IDE console
 >
 >	2.1. Rotor converts the current letter according to the offset and setting current state.
 >
->	![alt text](2)
+>	![alt text](https://github.com/VitNecha/Enigma-JAVA/blob/main/documentation/2.png)
 >
 >	2.2. Then, letter “goes through” forward permutation of the rotor as if no changes done to offset and setting as those being 
 >	done previously (arithmetically) in conversion.
 >
 >	2.3. Then, rotor corrects the previous conversion.
 >
->	![alt text](3)
+>	![alt text](https://github.com/VitNecha/Enigma-JAVA/blob/main/documentation/3.png)
 >
 >3. Left rotor output letter “reflects” in the reflector (according to the chosen reflector).
 >
 >4. Reflector output letter “goes through” the rotors again (left to right) and the actions of (2) implemented in reverse (reverse 
 >	permutation).
 >
->![alt text](4)
+>![alt text](https://github.com/VitNecha/Enigma-JAVA/blob/main/documentation/4.png)
 >5. Right rotor output “goes through” plug-board in reverse and changes to the final output letter.
 >
 >
